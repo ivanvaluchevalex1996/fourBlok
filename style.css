@@ -1,0 +1,79 @@
+/* @font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('fonts/Roboto-Regular.woff');
+} */
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+
+}
+body {
+  background-color:  #E5E5E5;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+}
+.main {
+  background-color: #C4C4C4;
+width: 661px;
+height: 831px;
+margin: auto;
+
+}
+.input {
+  width: 550px;
+height: 61px;
+margin: 62px 84px 0 62px;
+font-family:inherit;
+font-size: 48px;
+padding:5px;
+
+}
+
+.input__api-names {
+  width: 545px;
+  height: 35px;
+  border: 2px solid #000000;
+  margin: 0 84px 0 62px;
+  background-color: #E3E3E3;
+  padding: 5px;
+  overflow: hidden;
+}
+
+.input__api-names:hover {
+  background-color: #65CDF9;
+  }
+
+  .list__api-names:first-child{
+    margin-top: 40px;
+  }
+
+  .list__api-names {
+    width: 547px;
+    height: 101px;
+    border: 1px solid #000000;
+    margin: -11px 84px -56px 62px;
+    background-color: #E27BEB;
+    padding:5px;
+   
+  }
+
+  .closeButton{
+    background-image: url('/fourBlok/image/aaa.png');
+    background-color: transparent;
+    height: 62px;
+    width: 66px;
+    position: relative;
+    top: -28px;
+    left: 544px;
+    background-repeat: no-repeat;
+  } 
+
+
+
+
